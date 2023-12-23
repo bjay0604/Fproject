@@ -226,7 +226,8 @@ ul .flex {
 .shop-now mark {
   border-radius: 15px;
   background-color: blue;
-  padding: 8px;
+  padding: 10px;
+  color: white;
 }
 
 .shop-now:hover {
@@ -431,6 +432,7 @@ ul .flex {
   .header-home {
     width: 100%;
     margin-top: 100px;
+    gap: 20px;
   }
 
   .header-content {
@@ -923,7 +925,7 @@ textarea {
     width: 100%;
     height: 200vh;
     gap: 20px;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-left: 0;
   }
 
