@@ -1,0 +1,951 @@
+body {
+  background-image: url(/Fproject/img/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+
+/* NAV BAR */
+nav {
+  background-color: white;
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  font-family: 'Nova Square', sans-serif;
+}
+
+ul .flex {
+  font-size: 5vmin;
+}
+
+.h-8 {
+  border-radius: 50%;
+}
+
+/* subscribe */
+.container-login {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 50px;
+  margin-top: 50px;
+  gap: 10%;
+}
+
+.container-subs {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.subscribe {
+  display: flex;
+  font-size: 7vmin;
+  color: white;
+  font-family: 'Nova Square', sans-serif;
+  text-align: center;
+}
+
+.subscribe1 {
+  display: flex;
+  font-size: 7vmin;
+  color: white;
+  font-family: 'Nova Square', sans-serif;
+  text-align: center;
+  
+}
+
+.nominors {
+  font-size: 5vmin;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  width: 100%;
+  font-family: 'Nova Square', sans-serif;
+  -webkit-text-stroke: 1px blue;
+
+}
+
+.nominors span {
+  font-size: 7vmin;
+  color: blue;
+  font-weight: 900;
+  text-align: center;
+  -webkit-text-stroke: 1px white;
+}
+
+.discountForm {
+  width: 250px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px;
+  gap: 20px;
+  position: relative;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.082);
+}
+
+.DiscountHeading {
+  font-size: 1.5em;
+  color: blue;
+  font-weight: 700;
+}
+
+.DiscountSubheading {
+  font-size: 0.8em;
+  color: black;
+  text-align: center;
+}
+
+.inputContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+#email-address {
+  height: 30px;
+  width: 100%;
+  border: 1px solid rgb(228, 228, 228);
+  background-color: white;
+  padding: 0px 10px;
+  outline: none;
+  text-align: center;
+}
+
+.submitButton {
+  width: 100%;
+  height: 30px;
+  border: none;
+  color: blue;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: blue;
+  color: white;
+}
+
+.exitBtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.171);
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  border: none;
+  color: black;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+  .container-login {
+    height: 125vh;
+    margin-top: 100px;
+    gap: 0px;
+  }
+
+  .container-subs {
+    width: 100%;
+    text-align: center;
+  }
+  .discountForm {
+    margin-bottom: 40px;
+  }
+
+  .subscribe1, .subscribe{
+    justify-content: center;
+  }
+}
+
+/* HOME */
+.header-home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 70px;
+  padding: 100px;
+  gap: 20%;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  color: white;
+  width: 50%;
+}
+
+.image-boxtype {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+.img-boxtype {
+  width: 400px;
+  height: 375px;
+}
+
+.boost {
+  font-size: 9vmin;
+  font-weight: 1000;
+  font-family: 'Nova Square', sans-serif;
+}
+
+.get-off {
+  font-size: 4vmin;
+  color: blue;
+  font-family: 'Nova Square', sans-serif;
+}
+
+.shop-now {
+  font-size: 2vmin;
+  color: white;
+  font-family: 'Nova Square', sans-serif;
+}
+
+.shop-now mark {
+  border-radius: 15px;
+  background-color: blue;
+  padding: 8px;
+}
+
+.shop-now:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+/* home-juicekit */
+.card-juicekit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  margin-top: -50px;
+}
+
+.card-juice {
+  font-family: 'Nova Square', sans-serif;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 550px;
+  height: 300px;
+  border-radius: 0.5rem;
+  background-color: rgba(184, 59, 21, 0.647);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.card-kit {
+  font-family: 'Nova Square', sans-serif;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 550px;
+  height: 300px;
+  border-radius: 0.5rem;
+  background-color: rgba(221, 0, 255, 0.467);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.juiceimg {
+  width: 550px;
+  height: 300px;
+}
+
+.kitimg {
+  width: 550px;
+  height: 300px;
+}
+
+.content-juice {
+  padding: 1.1rem;
+}
+
+.title-juice {
+  color: black;
+  font-size: 3vmin;
+  font-weight: 600;
+}
+
+.desc-juice {
+  margin-top: 1.8rem;
+  color: white;
+  font-size: 7vmin;
+  line-height: 1.25rem;
+  font-weight: 900;
+}
+
+.action {
+  display: inline-flex;
+  margin-top: 2rem;
+  color: #ffffff;
+  font-size: 2vmin;
+  line-height: 1.75rem;
+  font-weight: 500;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: #2563EB;
+  padding: 1vmin;
+  border-radius: 4px;
+}
+
+.action span {
+  transition: .3s ease;
+}
+
+.action:hover span {
+  transform: translateX(4px);
+}
+
+/* sale */
+.container-home {
+  display: flex;
+  flex-direction: row;
+}
+
+.onsale {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 30px;
+  font-size: 4vmin;
+  color: white;
+  font-family: 'Nova Square', sans-serif;
+}
+
+.sale-img {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.container-home {
+  display: flex;
+  flex-direction: row;
+}
+
+.sale {
+  color: blue;
+}
+
+.new {
+  text-decoration: rgb(255, 255, 255) line-through;
+  cursor: not-allowed;
+}
+
+.sale:hover {
+  text-decoration: underline;
+}
+
+.trend:hover {
+  text-decoration: underline;
+}
+
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 800px) {
+  .header-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .header-content {
+    width: 100%;
+  }
+
+  .image-boxtype {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+ 
+  .sale-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .shop-now {
+    margin-right: -20px;
+  }
+
+  .card-juicekit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .card-juice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 250px;
+  }
+
+  .card-kit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-home {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .card-juicekit {
+    margin-top: 0px;
+  }
+
+  .img-boxtype {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* .img-boxtype {
+    height: 300px;
+  } */
+
+  .card-juice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 225px;
+  }
+
+  .card-kit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 225px;
+  }
+}
+
+/* .parent {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 300px;
+  height: auto;
+  width: 100%;
+}
+
+.boost {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 400%;
+  font-family: 'Lugrasimo', cursive;
+}
+
+.off {
+  display: flex;
+  justify-content: flex-start;
+  color: blue;
+  font-size:35px;
+  margin-left: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.shopnow {
+  color: white;
+  background-color: blue;
+  padding: 3%;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.shopnow:hover {
+  background-color: darkblue;
+}
+
+.boxtype {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 440px;
+} */
+
+
+
+/*PRODUCT */
+.product-b {
+  background-color: rgb(0, 0, 0);
+}
+
+.parent-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  margin-top: 150px;
+  font-family: 'Nova Square', sans-serif;
+}
+
+.shop {
+  color: white;
+  font-size: 40px;
+  font-family: 'Nova Square', sans-serif;
+}
+
+.backhome {
+  color: white;
+  font-size: 20px;
+  font-family: 'Nova Square', sans-serif;
+  margin-top: 20px;
+}
+
+.homeback {
+  color: rgba(255, 255, 255, 0.434);
+}
+
+.results {
+  color: white;
+  font-size: 20px;
+  font-family: 'Nova Square', sans-serif;
+}
+
+.dropdown-product {
+  padding-right: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  width: 95%;
+}
+
+.header-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 50px;
+  color: white;
+  margin-top: -100px;
+}
+
+.product-title {
+  font-size: 6vmin;
+  font-weight: 1000;
+  text-align: center;
+  font-family: 'Nova Square', sans-serif;
+  /* color: blue;
+  -webkit-text-stroke: 1px rgb(255, 255, 255); */
+  color: white;
+  -webkit-text-stroke: 1px blue;
+  line-height: 1;
+}
+
+.product-title span {
+ 
+  color: blue;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.header-title {
+  margin-top: 100px;
+}
+
+.container-product {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.card {
+  position: relative;
+  width: 14em;
+  height: 18em;
+  box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 120ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 0.5em;
+  padding-bottom: 3.4em;
+  font-family: 'Nova Square', sans-serif;
+}
+
+.card::after {
+  content: "Add to Cart";
+  padding-top: 1.25em;
+  padding-left: 1.25em;
+  position: absolute;
+  left: 0;
+  bottom: -60px;
+  background: blue;
+  color: #fff;
+  height: 3.5em;
+  width: 100%;
+  transition: all 80ms;
+  font-weight: 600;
+  text-transform: uppercase;
+  opacity: 0;
+}
+
+.card .title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  position: absolute;
+  left: 0.625em;
+  bottom: 1.875em;
+  font-weight: 400;
+  color: #000;
+}
+
+.card .price {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 0.9em;
+  position: absolute;
+  left: 0.625em;
+  bottom: 0.625em;
+  color: #000;
+}
+
+.card:hover::after {
+  bottom: 0;
+  opacity: 3;
+
+}
+
+.card:active {
+  transform: translateY(60px);
+
+}
+
+.card:active::after {
+  content: "Added !";
+  height: 3.125em;
+}
+
+.text {
+  max-width: 55px;
+}
+
+ @media screen and (max-width:768px){
+  .parent-product {
+    width: 100%;
+  }
+ }
+/* FAQ */
+.faq-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-header {
+  font-size: 6vmin;
+  margin-top: 150px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nova Square', sans-serif;
+}
+
+.faq-header h2{
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  color: blue;
+}
+
+.faq-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+  font-family: 'Nova Square', sans-serif;
+}
+
+.q1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  color: white;
+  padding: 30px;
+}
+
+.q1 span {
+  font-size: 4vmin;
+  font-weight: 700;
+  color: blue;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.safe-image {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.safe-img {
+  width: 300px;
+  height: 250px;
+}
+
+.faq-container2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+  font-family: 'Nova Square', sans-serif;
+}
+
+.q2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  color: white;
+  padding: 30px;
+}
+
+.q2 span {
+  font-size: 4vmin;
+  font-weight: 700;
+  color: blue;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.safe-image {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.safe2-img {
+  width: 400px;
+  height: 250px;
+}
+
+@media screen and (max-width:768px) {
+
+  .faq-container,
+  .faq-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .q1,
+  .q2 {
+    width: 75%;
+  }
+}
+
+/* CONTACT */
+.main-contact {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-left: 70px;
+  margin-top: 175px;
+}
+
+.contact1{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.contact-form {
+  background-color: rgba(255, 255, 255, 0.292);
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  height: 500px;
+}
+
+.contact-form label {
+  color: black;
+  font-family: 'Nova Square', sans-serif;
+}
+
+.contact-form .heading {
+  font-size: 24px;
+  color: black;
+  font-family: 'Nova Square', sans-serif;
+  margin-bottom: 12px;
+  font-weight: bold;
+  display: block;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+  width: 50%;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 2px solid blue;
+  background-color: rgba(255, 255, 255, 0.758);
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px blue;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"] {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Nova Square', sans-serif;
+}
+
+.contact-form button[type="submit"]:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.vertical-line {
+  border-left: 1px solid rgb(255, 255, 255); /* Adjust thickness, style, and color as needed */
+  height: 500px; /* Adjust height as needed */
+}
+
+.contact2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  color: white;
+  margin-bottom: 75px;
+  font-family: 'Nova Square', sans-serif;
+}
+
+.branch {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact2 h1{
+  font-family: 'Nova Square', sans-serif;
+  font-size: 4vmin;
+  color: blue;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.contact-info {
+  display: flex;
+  gap: 20px;
+  font-size: 3vmin;
+}
+
+.contact-info2 {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-info:hover {
+  color: blue;
+}
+
+@media screen and (max-width:768px){
+  .main-contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200vh;
+    gap: 20px;
+    margin-top: 150px;
+    margin-left: 0;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .contact1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contact-form {
+    width: 70%;
+  }
+
+  .contact2 {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+
