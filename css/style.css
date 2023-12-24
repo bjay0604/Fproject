@@ -905,7 +905,7 @@ textarea {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 200vh;
+   
     gap: 20px;
     margin-left: 0;
   }
